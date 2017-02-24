@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="ExtremeAnimeRadio.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ExtremeAnimeRadio"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <WebView Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Stretch" Source="http://animeradio.net/php/search.php"/>
+        <MediaPlayerElement Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Width="100" Name="AudioPlayer" AreTransportControlsEnabled="True"/>
+    </Grid>
+</Page>

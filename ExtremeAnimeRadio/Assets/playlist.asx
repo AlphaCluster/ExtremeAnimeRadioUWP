@@ -1,0 +1,11 @@
+<asx version = "3.0">
+        <Title></Title>
+        <Author>http://www.StreamLicensing.com</Author>
+        <Copyright>StreamLicensing, LLC.</Copyright>
+        <MoreInfo href="http://www.StreamLicensing.com" />
+        <entry>
+                <ref href="http://174.37.159.206:8052/stream" />
+                <Title></Title>
+                <Author>http://www.StreamLicensing.com</Author>
+        </entry>
+</asx>
